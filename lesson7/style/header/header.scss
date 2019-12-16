@@ -1,0 +1,29 @@
+.header{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 90px;
+    .header__name{  
+      font-family: 'Inconsolata', monospace;
+      font-size: 30px;
+      letter-spacing: 5px;
+    }
+    .header__nav{
+      .header__navigation-list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .header__navigation-list-item{
+          padding: 0 20px;
+          font-family: 'Playfair Display', serif;
+
+          &:last-child{
+            padding-right: 0;
+          }
+        }
+      }
+
+    }
+}

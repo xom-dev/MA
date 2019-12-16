@@ -1,0 +1,119 @@
+.main{
+  margin: 50px 90px;
+  .main__main-article-img{
+    width: 100%;
+  }
+
+  .main__main-article-wrap{
+    margin: 100px 100px;
+
+    .main__main-article-chapter{
+      text-transform: uppercase;
+      font-family: 'Ubuntu';
+      font-size: 14px;
+      color: #b4ad9e;
+    }
+
+    .main__main-article-caption{
+      font-family: 'Playfair Display', serif; 
+      font-size: 30px;
+      padding: 20px 0 40px 0;  
+    }
+
+    .main__main-article-text{
+      font-family: 'Playfair Display', serif;
+      font-size: 14px;
+      line-height: 2;
+      color: #626262;
+    }
+
+    .main__main-article-btn--leave-a-comment{
+      margin-top: 40px;
+        text-transform: uppercase;
+        font-family: 'Ubuntu';
+        font-size: 14px;
+        color: #b4ad9e;
+        background-color: #fff;
+        border-style: none;
+    }
+  }
+  .main__articles-list-wrap {
+
+    .main__articles-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 100px;
+
+      .main__articles-list-item{
+        width: 450px;
+        height: 600px;
+        margin-bottom: 100px;
+
+        &:nth-child(5), &:last-child {
+          margin-top: 500px;
+        }
+
+        .main__main-article-img{
+          height: 300px;
+          width: 450px;
+          object-fit: cover;
+        }
+
+        .main__main-article-wrap{
+          margin: 0px;
+          padding-top: 50px;
+        }
+      }
+    }  
+  }
+  &__sign-up {
+    position: absolute;
+    top: 2700px;
+    width: 100%;
+    height: 290px;
+    background-color: #f0f0f0;
+    left: 0;
+
+    .main__form {
+      height: 290px;
+      text-align: center;
+      position: relative;
+
+      &-title {
+        font-family: 'Playfair Display', serif; 
+        font-size: 30px;
+        font-weight: lighter;
+        text-align: center;
+        padding-top: 75px;
+      }
+
+      input {
+        margin-top: 75px;
+        border-style: none;
+        border-bottom: 1px solid #000;
+        width: 350px;
+        height: 35px;
+        background-color: #f0f0f0;
+        font-size: 14px;
+        color: #626262;
+        font-family: "Playfair Display";
+        font-weight: 400;
+      }
+    }
+  }
+
+  .btn {
+    width: 164px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #626262;
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    position: relative;
+    margin-left: 500px;
+  }
+}
